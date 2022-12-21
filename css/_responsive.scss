@@ -1,0 +1,50 @@
+@media screen and (max-width: 1326px) {
+    header {
+        nav {
+             
+        .menu {
+           
+                flex-basis: 48%;
+              
+            }
+        
+    }
+}
+}
+
+
+@media screen and (max-width: 992px) {
+    header {
+        nav {
+             
+        .menu {
+        flex-basis: 54%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+}
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        nav {
+             
+        .menu {
+       display: none;
+}
+.mobile {
+    display: block;
+}
+}
+.hero-section {
+    h3 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 17px;
+    }
+}
+}
+}
